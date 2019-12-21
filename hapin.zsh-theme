@@ -76,5 +76,5 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 add-zsh-hook precmd vcs_info
 
 # Oxide prompt style.
-PROMPT=$'\n%{$hapin_magenta%}%m %{$hapin_lightblue%}%~%{$hapin_reset_color%} ${vcs_info_msg_0_}\n%(?.%{%F{white}%}.%{$hapin_red%})%(!.#.❯)%{$hapin_reset_color%} '
+PROMPT=$'\n%{$hapin_magenta%}%n%{$hapin_reset_color%}@%{$hapin_limegreen%}%m %{$hapin_lightblue%}%~%{$hapin_reset_color%} ${vcs_info_msg_0_}\n%(?.%{%F{white}%}.%{$hapin_red%})%(!.#.❯)%{$hapin_reset_color%} '
 
